@@ -1,0 +1,26 @@
+/*
+* Styles for the Michelle Obama tribute page
+* by Ashley Newton
+*/
+
+h1, h2 {
+  color: #403f3e;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p, ul {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.larger-image {
+  width: 500px;
+}
+
+#tribute-info {
+  background-color: #f0efe9;
+}
+
+.main-content {
+  padding: 1.5em;
+  margin: 1.5em;
+}
