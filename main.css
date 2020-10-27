@@ -17,6 +17,8 @@ p, ul {
 }
 
 .larger-image {
+  display: block;
+  margin: auto;
   width: 500px;
 }
 
@@ -27,10 +29,11 @@ p, ul {
 .main-content {
   padding: 1.5em;
   margin: 1.5em;
+  margin: auto;
 }
 
 img {
-  max-width: 100%;
+  max-width: 95%;
   height: auto;
 }
 
