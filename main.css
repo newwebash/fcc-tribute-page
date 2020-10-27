@@ -7,13 +7,27 @@
 * All devices and screens
 */
 
+body {
+  background-color: #006aff;
+}
+
 h1, h2 {
-  color: #403f3e;
   font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 58px;
+}
+
+h2 {
+  color: #403f3e;
 }
 
 p, ul {
   font-family: 'Open Sans', sans-serif;
+
 }
 
 .larger-image {
@@ -22,8 +36,27 @@ p, ul {
   width: 500px;
 }
 
-#tribute-info {
+#img-caption {
+  display: block;
+  margin: auto;
+  max-width: 480px;
+  text-align: center;
+  color: white;
+  line-height: 150%;
+
+}
+
+#tribute-info-wrapper {
   background-color: #f0efe9;
+}
+
+#tribute-info {
+  display: block;
+  margin: auto;
+  max-width: 700px;
+  text-align: left;
+  font-size: 24px;
+  line-height: 180%;
 }
 
 .main-content {
