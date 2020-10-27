@@ -21,8 +21,8 @@ h1 {
   font-size: 58px;
 }
 
-h2 {
-  color: #403f3e;
+h2, strong {
+  color: #031b4e;
 }
 
 p, ul {
@@ -43,12 +43,13 @@ p, ul {
   text-align: center;
   color: white;
   line-height: 150%;
-
+  padding-bottom: 1.5em;
 }
 
 #tribute-info-wrapper {
   background-color: #f0efe9;
   margin: -15px;
+  padding: 1.5em;
 }
 
 #tribute-info {
@@ -58,10 +59,11 @@ p, ul {
   text-align: left;
   font-size: 24px;
   line-height: 180%;
+  color: #5b6987;
 }
 
 .main-content {
-  padding: 1.5em;
+  padding: 0em 1.5em;
   margin: 1.5em;
   margin: auto;
 }
