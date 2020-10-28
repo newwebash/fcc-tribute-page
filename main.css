@@ -8,7 +8,8 @@
 */
 
 body {
-  background-color: #006aff;
+  background-image: url("_static/images/chicago-2183727_1920.jpg");
+  background-color: #3498db;
 }
 
 h1, h2 {
@@ -21,13 +22,13 @@ h1 {
   font-size: 58px;
 }
 
-h2 {
-  color: #403f3e;
+h2, strong {
+  color: #031b4e;
 }
 
 p, ul {
   font-family: 'Open Sans', sans-serif;
-
+  line-height: 150%;
 }
 
 .larger-image {
@@ -41,14 +42,15 @@ p, ul {
   margin: auto;
   max-width: 480px;
   text-align: center;
-  color: white;
-  line-height: 150%;
-
+  background-color: white;
+  color: #031b4e;
+  padding: 10px;
 }
 
 #tribute-info-wrapper {
   background-color: #f0efe9;
   margin: -15px;
+  padding: 1.5em;
 }
 
 #tribute-info {
@@ -58,10 +60,11 @@ p, ul {
   text-align: left;
   font-size: 24px;
   line-height: 180%;
+  color: #5b6987;
 }
 
 .main-content {
-  padding: 1.5em;
+  padding: 0em 1.5em;
   margin: 1.5em;
   margin: auto;
 }
