@@ -8,6 +8,7 @@
 */
 
 body {
+  background-image: url("_static/images/chicago-2183727_1920.jpg");
   background-color: #006aff;
 }
 
@@ -27,7 +28,7 @@ h2, strong {
 
 p, ul {
   font-family: 'Open Sans', sans-serif;
-
+  line-height: 150%;
 }
 
 .larger-image {
@@ -41,9 +42,9 @@ p, ul {
   margin: auto;
   max-width: 480px;
   text-align: center;
-  color: white;
-  line-height: 150%;
-  padding-bottom: 1.5em;
+  background-color: white;
+  color: #031b4e;
+  padding: 10px;
 }
 
 #tribute-info-wrapper {
